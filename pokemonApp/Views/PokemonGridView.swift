@@ -19,7 +19,7 @@ struct PokemonGridView: View {
             ZStack{
                 LinearGradient(gradient: Gradient(colors: [Color.green.opacity(0.2), Color.pink.opacity(0.3)]), startPoint: .topLeading, endPoint: .bottomTrailing)
                     .edgesIgnoringSafeArea(.all)
-                ScrollView{
+                ScrollView {
                     LazyVGrid(columns: gridItems, spacing: 16) {
                         ForEach(viewModel.pokemon){
                             pokemon in
