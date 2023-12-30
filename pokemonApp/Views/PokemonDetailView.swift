@@ -124,10 +124,12 @@ struct PokemonDetailView: View {
                                     .font(.title2)
                                     .fontWeight(.bold)
                                     .padding()
+                                Divider()
                                 
                                 Text("\(pokemon.description)")
                                     .fontWeight(.medium)
                                     .foregroundStyle(Color.gray)
+                                    .multilineTextAlignment(.center)
                                     .padding()
                                 Spacer()
                                 

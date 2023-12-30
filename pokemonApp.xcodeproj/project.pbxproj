@@ -19,7 +19,6 @@
 		ADE0074A297C45EE00651C95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADE00749297C45EE00651C95 /* Assets.xcassets */; };
 		ADE0074D297C45EE00651C95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADE0074C297C45EE00651C95 /* Preview Assets.xcassets */; };
 		ADE00755297C475400651C95 /* PokemonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE00754297C475400651C95 /* PokemonModel.swift */; };
-		ADEE1DCD2B3F340200CB7D12 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEE1DCC2B3F340200CB7D12 /* test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +34,6 @@
 		ADE00749297C45EE00651C95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADE0074C297C45EE00651C95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ADE00754297C475400651C95 /* PokemonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonModel.swift; sourceTree = "<group>"; };
-		ADEE1DCC2B3F340200CB7D12 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +93,6 @@
 				AD0AEF0B297D387D006B54B4 /* ViewModel */,
 				ADE00753297C473D00651C95 /* Model */,
 				ADE00749297C45EE00651C95 /* Assets.xcassets */,
-				ADEE1DCC2B3F340200CB7D12 /* test.swift */,
 				ADE0074B297C45EE00651C95 /* Preview Content */,
 			);
 			path = pokemonApp;
@@ -196,7 +193,6 @@
 				ADE00748297C45EC00651C95 /* ContentView.swift in Sources */,
 				ADE00755297C475400651C95 /* PokemonModel.swift in Sources */,
 				AD61117C2B3ECC16003F3D61 /* SplashScreenView.swift in Sources */,
-				ADEE1DCD2B3F340200CB7D12 /* test.swift in Sources */,
 				AD0AEF14297D8972006B54B4 /* PokemonGridView.swift in Sources */,
 				AD0AEF0F297D38DC006B54B4 /* PokemonViewModel.swift in Sources */,
 				ADE00746297C45EC00651C95 /* pokemonAppApp.swift in Sources */,

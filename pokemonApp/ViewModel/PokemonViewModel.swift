@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-class PokemonViewModel: ObservableObject{
+class PokemonViewModel: ObservableObject {
     @Published var pokemon = [Pokemon]()
     
     let baseUrl = "https://pokedex-bb36f.firebaseio.com/pokemon.json"
@@ -62,7 +62,7 @@ class PokemonViewModel: ObservableObject{
 }
 
 
-extension Data{
+extension Data {
     func parseData(removeString string: String) -> Data? {
         let dataAsString = String(data: self, encoding: .utf8)
         
